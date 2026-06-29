@@ -59,16 +59,13 @@ uvicorn app.main:app --reload
 http://127.0.0.1:8000/docs
 \```
 
-## Endpoints disponibles
-
-| Método | Endpoint       | Descripción                  |
-|--------|----------------|-------------------------------|
-| GET    | /products/     | Listar todos los productos    |
-| POST   | /products/     | Crear un producto              |
-| GET    | /products/{id} | Consultar un producto por ID  |
-| PUT    | /products/{id} | Actualizar un producto         |
-| DELETE | /products/{id} | Eliminar un producto           |
-
+| Método | Endpoint | Descripción |
+|---|---|---|
+| GET | /products/ | Listar todos los productos |
+| POST | /products/ | Crear un producto |
+| GET | /products/{id} | Consultar un producto por ID |
+| PUT | /products/{id} | Actualizar un producto |
+| DELETE | /products/{id} | Eliminar un producto |
 
 ## 👤 Autor
 
