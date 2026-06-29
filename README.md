@@ -75,4 +75,15 @@ http://127.0.0.1:8000/docs
 - **Proyecto:** SENA - Análisis y Desarrollo de Software
 - **Trimestre:** 4
 
+## CAPTURAS DE PANTALLA
+<img width="1920" height="1140" alt="422" src="https://github.com/user-attachments/assets/0650fdc0-0623-40e4-8699-3325c57e5010" />
+<img width="1920" height="1140" alt="GET_200" src="https://github.com/user-attachments/assets/057e34a9-98bd-4dab-90d5-693cb54c0fc6" />
+<img width="1906" height="1136" alt="PUT" src="https://github.com/user-attachments/assets/91f9807a-370e-4719-9d2c-57717a62c44a" />
+<img width="1920" height="1140" alt="DELETE" src="https://github.com/user-attachments/assets/ca9365fe-aee6-4005-8b86-be6548615201" />
+<img width="1920" height="1140" alt="POST" src="https://github.com/user-attachments/assets/975604cd-9352-4d2e-bbdf-445a84f14a91" />
+<img width="1920" height="1140" alt="POSTT" src="https://github.com/user-attachments/assets/c388c5af-ecb9-400e-bcd7-9f11524a4710" />
+<img width="1171" height="712" alt="Terminal" src="https://github.com/user-attachments/assets/6695fe8d-a63e-4624-8d02-4ed07e02caa4" />
+
+
+
 
