@@ -19,7 +19,11 @@ La API permite administrar un inventario básico de productos: crear, listar, co
 
 El proyecto está organizado por capas, para separar responsabilidades:
 
-\```
+## Estructura del proyecto
+
+El proyecto está organizado por capas, para separar responsabilidades:
+
+```
 app/
 ├── main.py                      # Punto de entrada de la aplicación
 ├── database/
@@ -34,7 +38,7 @@ app/
 │   └── product_service.py       # Lógica de negocio
 └── routes/
     └── product_routes.py        # Endpoints de la API
-\``` 
+```
 
 ## Cómo correr el proyecto en local
 
