@@ -20,29 +20,21 @@ La API permite administrar un inventario básico de productos: crear, listar, co
 El proyecto está organizado por capas, para separar responsabilidades:
 
 ```
-inventario_api/
-│
-├── app/
-│   ├── main.py                      # Punto de entrada de la app
-│   │
-│   ├── database/
-│   │   └── connection.py            # Configuración de SQLAlchemy y SQLite
-│   │
-│   ├── models/
-│   │   └── product.py               # Modelo SQLAlchemy (tabla products)
-│   │
-│   ├── schemas/
-│   │   └── product.py               # Esquemas Pydantic (validaciones)
-│   │
-│   ├── repositories/
-│   │   └── product_repository.py    # Acceso a datos (queries SQLAlchemy)
-│   │
-│   ├── services/
-│   │   └── product_service.py       # Lógica de negocio y manejo de errores
-│   │
-│   └── routes/
-│       └── product_routes.py        # Endpoints de la API
-
+app/
+├── main.py                      # Punto de entrada de la aplicación
+├── database/
+│   └── connection.py            # Configuración de SQLAlchemy y SQLite
+├── models/
+│   └── product.py               # Modelo de la tabla "products"
+├── schemas/
+│   └── product.py               # Esquemas de Pydantic (validaciones)
+├── repositories/
+│   └── product_repository.py    # Acceso a datos (consultas a la BD)
+├── services/
+│   └── product_service.py       # Lógica de negocio
+└── routes/
+    └── product_routes.py        # Endpoints de la API
+```
 ```
 
 ## Cómo correr el proyecto en local
