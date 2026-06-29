@@ -35,7 +35,6 @@ app/
 └── routes/
     └── product_routes.py        # Endpoints de la API
 ```
-```
 
 ## Cómo correr el proyecto en local
 
