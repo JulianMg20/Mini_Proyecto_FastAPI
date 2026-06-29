@@ -34,7 +34,7 @@ app/
 │   └── product_service.py       # Lógica de negocio
 └── routes/
     └── product_routes.py        # Endpoints de la API
-\```
+\``` 
 
 ## Cómo correr el proyecto en local
 
@@ -68,6 +68,8 @@ http://127.0.0.1:8000/docs
 | GET    | /products/{id} | Consultar un producto por ID  |
 | PUT    | /products/{id} | Actualizar un producto         |
 | DELETE | /products/{id} | Eliminar un producto           |
+
+
 ## 👤 Autor
 
 - **Nombre:** Julián Esneyde Machado Garzón
