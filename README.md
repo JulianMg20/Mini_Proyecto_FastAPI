@@ -39,23 +39,23 @@ app/
 ## Cómo correr el proyecto en local
 
 1. Crear y activar el entorno virtual:
-\```bash
+\ ```bash
 python -m venv venv
 source venv/Scripts/activate
 \```
 
 2. Instalar dependencias:
-\```bash
+\ ```bash
 pip install -r requirements.txt
 \```
 
 3. Ejecutar el servidor:
-\```bash
+\ ```bash
 uvicorn app.main:app --reload
 \```
 
 4. Abrir la documentación interactiva:
-\```
+\ ```
 http://127.0.0.1:8000/docs
 \```
 
